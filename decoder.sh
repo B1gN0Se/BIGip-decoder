@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Script to find out private IPs and other stuff from BIGIP F5 LB
-# Detection based on the URLs mentioned and on private experiences over the years.
-# The only known project which detects all flavors of F5 cookies. If something
-# is missing, pls send me a mail or file an issue at github.
-#
-# License: copyleft GPLv3, see https://www.gnu.org/licenses/gpl-3.0.en.html
-# Author:  Dirk Wetter (echo "qvex@grfgffy.fu" | tr a-zA-Z n-za-mN-ZA-M)
-# Updates via github: https://github.com/drwetter/F5-BIGIP-Decoder
-
 SIDEBYSIDE=${SIDEBYSIDE:-true}
 DEBUG=${DEBUG:-false}
 TEST=${TEST:-false}
