@@ -6,8 +6,8 @@ Bash script to print out private IPs, ports and other stuff from F5's BIG IP Loa
 
 **Usage**
 
-``f5_bigip_decoder.sh <URL>`` or ``f5_bigip_decoder.sh <cookie value>`` or ``f5_bigip_decoder.sh <cookie name=cookie value>``
+``decoder.sh <URL>`` or ``decoder.sh <cookie value>`` or ``decoder.sh <cookie name=cookie value>``
 
 **Example**
 
-``f5_bigip_decoder.sh TEST`` gives you an idea by running it against a predefined header
+``decoder.sh TEST`` gives you an idea by running it against a predefined header
